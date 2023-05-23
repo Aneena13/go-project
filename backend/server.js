@@ -123,7 +123,7 @@ app.post("/home", async(req,res)=> {
     console.log(req.body.destination);
     try{
         if(sourceCheck && destinationCheck){
-            history("/search");
+            // history("/search");
             res.json("done");
             // app.get("/search", async(req,res)=>{
             //     res.json("done");

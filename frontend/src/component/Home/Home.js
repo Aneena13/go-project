@@ -16,11 +16,11 @@ function Home() {
     source:source,
     destination:destination
   })
-  // }).then(res=>{
-  //   if(res.data="succuss"){
-  //     history("/search")
-  //   }
-  // })
+  .then(res=>{
+    if(res.data="done"){
+      history("/search")
+    }
+  })
   // .catch(e=>{
   //   alert("wrong details")
   //   console.log(e)
@@ -31,6 +31,7 @@ function Home() {
     console.log(e)
   }
 }
+
   return (
     <div>
       <div class="h1">
