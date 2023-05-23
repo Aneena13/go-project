@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+    height: 12vw;
+    width: 100%;
+}
+.h2{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    gap: 1vw;
+    height: 20vw;
+    width: 40vw;
+}
+.h3{
+    font-size: 7vw;
+    font-family: 'Kaushan Script', cursive;
+    width: 11vw;
+    margin-left: 3vw;
+    color: #414188;
+}
+.h4{
+    font-size: 1.8vw;
+    position: relative;
+    top: 13vh;
+    font-family: 'Kaushan Script', cursive;
+    width: 20vw;
+}
+.h5{
+    display: flex;
+    position: relative;
+    left: 50vw;
+    gap: 4vw;
+    margin-top: -12.5rem;
+    margin-left: 8vw;
+    color: #02B6DE;
+    font-family: sans-serif;
+}
+.h6{
+    background-color: #1285C6;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: -14vw;
+    margin-left: -7.5rem;
+    margin-bottom: 0.5vw;
+    transform: rotate(30deg);
+    z-index: 2;
+}
+.h7{
+    background-color: #49A4D7;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: -11vw;
+    margin-left: -12rem;
+    margin-bottom: 1.5rem;
+    transform: rotate(30deg);
+    z-index: 2;
+}
+.h8{
+    background-color: #63d2eb;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: -9vw;
+    margin-left: -11.5rem;
+    margin-bottom: 18vw;
+    transform: rotate(30deg); 
+    z-index: 2;  
+}
+.h9{
+    width: 30vw;
+    height: 40vw;
+    margin-left: 18.5vw;
+    margin-top: -10vh;
+    position: relative;
+    z-index: 1;
+}
+.h10{
+    font-size: 3.8vw;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    left: 62vw;
+    top: -2vh;
+}
+.h11{
+    margin-top: -3vh;
+    margin-left: -3vw;
+}
+.form1{
+    width: 35%;
+    outline: none;
+    border: 1px solid #1285C6;
+    padding: 12px 20px;
+    margin-bottom: -5px;
+    border-radius: 20px;
+    background: #02B6DE;
+    color: #fff;
+    margin-left: 57vw;
+  }
+  /* .h12{
+    margin-top: -25vh;
+    height: 65vh;
+  } */

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    width: 100%;
+}
+.navbar1{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    gap: 1vw;
+    height: 20vw;
+    width: 40vw;
+}
+.go{
+    font-size: 7vw;
+    font-family: 'Kaushan Script', cursive;
+    width: 11vw;
+    margin-left: 3vw;
+    color: #414188;
+}
+.go1{
+    font-size: 1.8vw;
+    position: relative;
+    top: 13vh;
+    font-family: 'Kaushan Script', cursive;
+    width: 20vw;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    left: 50vw;
+    gap: 4vw;
+    margin-top: -12.5rem;
+    margin-left: 8vw;
+    color: #02B6DE;
+    font-family: sans-serif;
+}
+.r1{
+    background-color: #1285C6;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+}
+.r2{
+    background-color: #49A4D7;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+}
+.r3{
+    background-color: #63d2eb;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: 25vw;
+    transform: rotate(30deg);   
+}

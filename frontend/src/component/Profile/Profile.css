@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    width: 100%;
+}
+.p2{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    gap: 1vw;
+    height: 20vw;
+    width: 40vw;
+}
+.p3{
+    font-size: 7vw;
+    font-family: 'Kaushan Script', cursive;
+    width: 11vw;
+    margin-left: 3vw;
+    color: #414188;
+}
+.p4{
+    font-size: 1.8vw;
+    position: relative;
+    top: 13vh;
+    font-family: 'Kaushan Script', cursive;
+    width: 20vw;
+}
+.p5{
+    display: flex;
+    position: relative;
+    left: 50vw;
+    gap: 4vw;
+    margin-top: -12.5rem;
+    margin-left: 8vw;
+    color: #02B6DE;
+    font-family: sans-serif;
+}
+.p6{
+    background-color: #1285C6;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+}
+.p7{
+    background-color: #49A4D7;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+}
+.p8{
+    background-color: #63d2eb;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: 31.5vw;
+    transform: rotate(30deg);   
+}
+#profile{
+    position: absolute;
+width: 242px;
+height: 76px;
+left: 20vw;
+top: 23vh;
+
+font-family: 'Gudea';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#proicon{
+    position: absolute;
+left: 17vw;
+right: 70.83%;
+top: 40vh;
+bottom: 45.31%;
+width: 16vw;
+height: 36vh;
+background: #000000;
+mix-blend-mode: darken;
+
+}
+#name{
+    position: absolute;
+width: 20vw;
+height: 76px;
+left: 17.5vw;
+top: 80vh;
+
+font-family: 'Gudea';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.p9{
+    width: 32vw;
+    height: 30vw;
+    margin-top: -44em;
+    margin-left: 55vw;
+    position: relative;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #F0D800;
+    padding: 10px;
+    border-radius: 35px;
+    bottom: 10vh;
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    width: 100%;
+    margin-left: 30vw;
+}
+.bus{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 1.5vw;
+    margin-left: -7rem;
+}
+.navbar1{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    gap: 1vw;
+    height: 20vw;
+    z-index: -1;
+
+}
+.go{
+    font-size: 7vw;
+    font-family: 'Kaushan Script', cursive;
+    width: 11vw;
+    margin-left: 3vw;
+    color: #414188;
+}
+.go1{
+    font-size: 1.8vw;
+    position: relative;
+    top: 13vh;
+    font-family: 'Kaushan Script', cursive;
+    width: 20vw;
+}
+
+.r1{
+    background-color: #1285C6;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+    z-index: -1;
+
+    
+}
+.r2{
+    background-color: #49A4D7;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    transform: rotate(30deg);
+    z-index: -1;
+
+    
+}
+.r3{
+    background-color: #63d2eb;
+    width: 90vw;
+    height: 3.5vw;
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: 25vw;
+    transform: rotate(30deg);  
+    z-index: -1; 
+}
+
+.r4{
+    width: 60vw;
+    height: 45vw;
+    background-color: #1285C6;
+    margin-top: -50em;
+    margin-left: 20vw;
+    position: relative;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #F0D800;
+    padding: 10px;
+    border-radius: 35px;
+    align-items: row;
+}
+
+.source{
+    margin-top: 0vh;
+    margin-left: 2vw;
+}
+.Destination{
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+.via{
+    margin-top: 4vh;
+    margin-left: 10vw;
+}
+.arrival{
+    margin-top: 6vh;
+    margin-left: 1vw;
+   
+}
+
+.depart{
+    margin-top: 8vh;
+    margin-left: 1vw;
+    color: #02B6DE;
+}
+button{
+    font-size: 1 rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 14px;
+    outline: none;
+    border:none;
+    width: 12vw;
+    color: #fff;
+    background: #02B6DE;
+    margin-left: 17vw;
+    font-family: 'Inter', sans-serif;
+  
+  }
+.esource{
+    color: #ffffff;
+}
+.edestination{
+    color: #ffffff;
+}
+.evia{
+    color: #ffffff;
+}
+.earrival{
+    color: #ffffff;
+}
+.edepart{
+    color: #ffffff;
+}
