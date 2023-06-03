@@ -1,7 +1,7 @@
 
 import "./Admin.css";
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 function Admin() {
 
 
@@ -12,7 +12,8 @@ function Admin() {
   const [arrival,setArrival]=useState('')
   const [depart,setDepart]=useState('')
   const [triptime,setTriptime]=useState('')
-  
+  const [data,setData]=useState([])
+
  
 
   async function submit(e){
@@ -28,9 +29,14 @@ function Admin() {
         arrival : arrival,
         depart : depart,
         triptime : triptime
-      })
-      // .then(res=>{
-      //   if(res.data=="notexist"){
+      }).then(res=>{
+          if(res.data==="error"){
+            alert("Failed")
+          }
+          else{
+            setData(res.data)
+          }
+        })
       //     history("/home");
       //   }
         
@@ -85,7 +91,9 @@ function Admin() {
         <button type="submit" onClick={submit} >Submit</button>
      </div>
      <div class="data"></div>
-    </div>
+   
+      </div>
+
   )
 }
 

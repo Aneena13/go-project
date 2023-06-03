@@ -20,6 +20,7 @@ function Myjourney() {
 <div class="r1"></div>
 <div class="r2"></div>
 <div class="r3"></div>
+
     </div>
   )
 }
