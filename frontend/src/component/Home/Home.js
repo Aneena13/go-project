@@ -25,7 +25,7 @@ function Home() {
     </div>
     
     <div class="h5">
-        <p onClick={()=>history("/home")}>HOME</p>
+        <p onClick={()=>history("/home")}>HOME  </p>
         <p>MY JOURNEY</p>
         <p>WANT TO GO</p>
         <p>PROFILE</p>
