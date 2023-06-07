@@ -79,7 +79,9 @@ max-width: 1300px;
 background: #F0D800;
 border-radius: 10px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
+gap:100px;
+/* flex-direction: column; */
 gap:10px;
 overflow-y: auto;
 padding: 10px;

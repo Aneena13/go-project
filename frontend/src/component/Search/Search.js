@@ -18,7 +18,7 @@ function Search() {
         })
         .then((res) => {
           setData(res.data.data);
-          console.log(res.data.data)
+          console.log(res.data.data);
         })
         .catch((e) => {
           alert("wrong details");
@@ -69,26 +69,21 @@ function Search() {
       <div class="s7"></div>
       <div class="s8"></div>
       <div class="yellowbox">
-        {data.map(
-          ({
-            source,
-            destination,
-            via,
-            viatime,
-            arrival,
-            depart,
-            triptime,
-          }) => (
-            <div className="t2">
-              <b>{source + "---" + via + "---" + destination}</b>
-              <br></br>
-              <br></br>
-              {arrival} &nbsp;&nbsp; {viatime} &nbsp;&nbsp; {depart}
-              <button>wishlist</button>
-              <button><Link to="/myjourney">save</Link></button>
+        <div style={{ display: "flex",flexDirection:'column' ,gap:'20px'}}>
+          
+          {data.map((places) =>
+          (<div style={{display:'flex',gap:'20px'}}>
+            {places.map(({ place, time }) => (
+              <div style={{display:'flex',flexDirection:'column'}}>
+                <p>{place}</p>
+                <p>{time}</p>
+              </div>
+            ))}
             </div>
-          )
-        )}
+            )
+          )}
+        </div>
+        <br/>
       </div>
     </div>
   );

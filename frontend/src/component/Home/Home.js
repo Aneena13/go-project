@@ -26,15 +26,15 @@ function Home() {
     
     <div class="h5">
         <p onClick={()=>history("/home")}>HOME  </p>
-        <p>MY JOURNEY</p>
+        <p onClick={()=>history("/myjourney")}>MY JOURNEY</p>
         <p>WANT TO GO</p>
-        <p>PROFILE</p>
+        <p onClick={()=>history("/profile")}>PROFILE</p>
     </div>
 </div>
 <div class="h11">
 <div class="h10">Plan your trip!!!</div>
 <form  class="form1" action="POST">
-          <input type="text" name='source1' onChange={(e)=>{setSource(e.target.value)}} placeholder="Source"></input>
+          <input type="D" name='source1' onChange={(e)=>{setSource(e.target.value)}} placeholder="Source"></input>
           <input type="text" name='destination1' onChange={(e)=>{setDestination(e.target.value)}} placeholder="Destination"></input>
           <input type="submit" onClick={submit} name='search' placeholder='Search' ></input>
 </form>

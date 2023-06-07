@@ -10,6 +10,7 @@ const express = require("express");
 
 // const signupSchema = require('./models/signupSchema')
 const SignupRoutes = require("./routes/signup.route");
+const {addbusRoute, getRouteByRequirement} = require('./controllors/bus.controller')
 
 const app = express();
 
@@ -30,6 +31,8 @@ mongoose
   });
 
 // app.use('/signup', SignupRoutes)
+
+app.post('/busroute',addbusRoute)
 
 app.post("/", async (req, res) => {
   const { email, password } = req.body;
@@ -103,30 +106,10 @@ app.post("/admin", async (req, res) => {
   }
 });
 
-app.post("/home", async (req, res) => {
-  try {
-    const data = await bus.find({
-      source: req.body.source,
-      destination: req.body.destination,
-    });
-    console.log(data);
-    if (data.length === 0) {
-      res
-        .status(404)
-        .json({ success: false, message: "No buses in this route" });
-    } else {
-        res.status(200).json({success:true,data:data})
-    }
-  } catch (error) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "server error try again after some time",
-      });
-  }
-});
+app.post("/home",getRouteByRequirement);
 
 app.listen(process.env.PORT, () => {
   console.log("listening to port ", process.env.PORT);
 });
+
+// app.use('/busroutes',busRoutes)

@@ -1,0 +1,116 @@
+h1{
+    font-family: 'Kaushan Script';
+    font-size:8ch;
+    margin-top: 0;
+    margin-left: 3vh;
+    color: #414188;
+}
+h2{
+    font-family: 'Kaushan Script';
+    font-size:3ch;
+    color:#000;
+    margin-top:-11vh;
+    margin-left: 7vw;
+}
+p1{ display: flex;
+    color:#02B6DE ;
+    margin-left: 65vw;
+    margin-top: -3vh;
+
+}
+p2{ display: flex;
+    color:#02B6DE ;
+    margin-left: 75vw;
+    margin-top: -3vh;
+
+}
+p3{ display: flex;
+    color:#02B6DE ;
+    margin-left: 85vw;
+    margin-top: -3vh;
+
+}
+p4{ display: flex;
+    color:#02B6DE ;
+    margin-left: 95vw;
+    margin-top: -3vh;
+
+}
+.BlueB1{
+    background-color:#02B6DE ;
+    height: 5vh;
+    width:15vw;
+    border-radius: 10px;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    color: #fff;
+    text-align: center;
+    border:solid 5px #F0D800;
+
+
+}
+.BlueB2{
+    background-color:#02B6DE ;
+    height: 5vh;
+    width:15vw;
+    border-radius: 10px;
+    margin-left: 30vw;
+    margin-top: 2vh;
+    color: #fff;
+    text-align: center;
+    border:solid 5px #F0D800
+
+
+}
+.BlueB3{
+    background-color:#02B6DE ;
+    height: 5vh;
+    width:15vw;
+    border-radius: 10px;
+    margin-left: 30vw;
+    margin-top: 2vh;
+    color: #fff;
+    text-align: center;
+    border:solid 5px #F0D800
+
+
+
+}
+.w1{
+    background-color: #1285C6;
+    height: 3.5vh;
+    width: 90vw;
+    transform: rotate(30deg);
+    margin-top: 11vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    z-index: -1;
+    position:relative;
+
+
+}
+.w2{
+    background-color: #49A4D7;
+    height: 3.5vh;
+    width: 90vw;
+    transform: rotate(30deg);
+    margin-top: 9vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    z-index: -1;
+    position:relative;
+
+}
+.w3{
+    background-color: #02B6DE;
+    height: 3.5vh;
+    width: 90vw;
+    transform: rotate(30deg);
+    margin-top: 9vw;
+    margin-left: -7.5rem;
+    margin-bottom: -8.5rem;
+    z-index: -1;
+    position:relative;
+
+
+}
