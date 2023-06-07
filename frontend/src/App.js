@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Profile from "./component/Profile/Profile";
 import Admin from "./component/Admin/Admin";
 import Search from "./component/Search/Search";
-
+import Wanttogo from "./component/Wantotgo/Wanttogo"
 export default () => {
   return (
     <BrowserRouter>
@@ -19,7 +19,8 @@ export default () => {
         <Route path="/admin" element={<Admin />} />
         <Route path="/myjourney" element={<Search />} />
         <Route path="/search/:source/:destination" element={<Search />} />
+        <Route path="/wanttogo" element={<Wanttogo />} />
       </Routes>
     </BrowserRouter>
-  );
+  ); 
 };

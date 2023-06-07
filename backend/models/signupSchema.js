@@ -18,7 +18,8 @@ const signupSchema = mongoose.Schema({
     phone: {
         type: String,
         required: true
-    }
+    },
+    wishlist:[],
    
 }, { timestamp: true })
 
