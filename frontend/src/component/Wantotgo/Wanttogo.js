@@ -13,9 +13,9 @@ function Wanttogo() {
         <p3>WANT TO GO</p3>
         <p4>LOGIN</p4>
          </div>
-         <div input type='button' className='BlueB1'>TVM - KOLLAM</div>
-         <div className='BlueB2'>EKM - ALAPPUZHA</div>
-         <div className='BlueB3'>IJK - KANNUR</div>
+         <div input type='button' className='BlueB1'>TVM - KOLLAM </div>
+         <div className='BlueB2'>EKM - ALAPPUZHA </div>
+         <div className='BlueB3'>IJK - KANNUR </div>
          <div>
          <div className='w11'></div>
          <div className='w2'></div>
