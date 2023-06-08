@@ -59,10 +59,10 @@ function Search() {
           <div class="s4">A Travel Guide</div>
         </div>
         <div class="s5">
-          <p>HOME</p>
-          <p>MY JOURNEY</p>
-          <p>WANT TO GO</p>
-          <p>LOGIN</p>
+        <p><Link to ="/home" className="li-1">HOME </Link></p>
+        <p><Link to ="/myjourney" className="li-1">MY JOURNEY</Link></p>
+        <p><Link to ="/myjourney" className="li-1">WANT TO GO</Link></p>
+        <p><Link to ="/profile" className="li-1">PROFILE</Link></p>
         </div>
       </div>
       <div class="s6"></div>
@@ -72,14 +72,19 @@ function Search() {
         <div style={{ display: "flex",flexDirection:'column' ,gap:'20px'}}>
           
           {data.map((places) =>
-          (<div style={{display:'flex',gap:'20px'}}>
+          (<div class="t2" style={{display:'flex',gap:'20px'}}>
             {places.map(({ place, time }) => (
-              <div style={{display:'flex',flexDirection:'column'}}>
+              <div style={{display:'flex',flexDirection:'column',gap:'25px'}}>
                 <p>{place}</p>
                 <p>{time}</p>
               </div>
             ))}
+            <div class="pq"style={{display:'flex',flexDirection:'column'}}>
+            <p>wishlist</p></div>
+            <div class="pq1"style={{display:'flex',flexDirection:'column'}}><p>save</p></div>
+            
             </div>
+            
             )
           )}
         </div>
