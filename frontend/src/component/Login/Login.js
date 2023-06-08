@@ -47,7 +47,7 @@ function Login() {
         <div class="l2">
             <div class="l4">GO</div>
             <div class="l5">A Travel Guide</div>
-            {/* <img class="l3" src={require('./bus.gif')}alt="bus"></img> */}
+            <img class="l3" src={require('./bus.gif')}alt="bus"></img> 
         </div>
         </div>
         <div class="l6"></div>
@@ -62,13 +62,14 @@ function Login() {
            
           
           <input type="submit" onClick={submit} placeholder='Login' ></input>
-          </form>
-          </div>
-
           <div class="signup1">
             <p>Don't Have an account ?</p>
             <Link to="/signup">signup</Link>
           </div>
+          </form>
+          </div>
+
+         
         
     </div>
   );

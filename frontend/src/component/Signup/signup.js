@@ -33,6 +33,7 @@ function Signup() {
       toast.error(e.response.data.message);
       
     }
+    history("/home");
   }
 
   return (
@@ -41,14 +42,13 @@ function Signup() {
         <div class="navbar1">
           <div class="go">GO</div>
           <div class="go1">A Travel Guide</div>
-          <img class="bus" src="bus.gif" alt="bus"></img>
+          <img class="bus" src={require('./bus.gif')}alt="bus"></img>
         </div>
       </div>
       <div class="r1"></div>
       <div class="r2"></div>
       <div class="r3"></div>
       <div class="r4">
-        <h3>Don't have an acoount! Sign Up</h3>
         <form action="POST">
           <input
             type="text"

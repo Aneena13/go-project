@@ -25,10 +25,10 @@ function Home() {
     </div>
     
     <div class="h5">
-        <p onClick={()=>history("/home")}>HOME  </p>
-        <p onClick={()=>history("/myjourney")}>MY JOURNEY</p>
-        <p>WANT TO GO</p>
-        <p onClick={()=>history("/profile")}>PROFILE</p>
+        <p><Link to ="/home" className="li-1">HOME </Link></p>
+        <p><Link to ="/myjourney" className="li-1">MY JOURNEY</Link></p>
+        <p><Link to ="/myjourney" className="li-1">WANT TO GO</Link></p>
+        <p><Link to ="/profile" className="li-1">PROFILE</Link></p>
     </div>
 </div>
 <div class="h11">
@@ -45,7 +45,7 @@ function Home() {
 <div class="h8"></div>
 </div>
 </div>
-{/* <img id="h9" src={require('./img1.jpg')} alt='girl'></img> */}
+<img id="h9" src={require('./img1.jpg')} alt='girl'></img> 
     </div>
   )
 }

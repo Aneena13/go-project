@@ -2,7 +2,7 @@ h1{
     font-family: 'Kaushan Script';
     font-size:8ch;
     margin-top: 0;
-    margin-left: 4vh;
+    margin-left: 3vh;
     color: #414188;
 }
 h2{
@@ -10,7 +10,7 @@ h2{
     font-size:3ch;
     color:#000;
     margin-top:-11vh;
-    margin-left: 9vw;
+    margin-left: 7vw;
 }
 p1{ display: flex;
     color:#02B6DE ;
@@ -20,29 +20,28 @@ p1{ display: flex;
 }
 p2{ display: flex;
     color:#02B6DE ;
-    margin-left: 70vw;
-    margin-top: -3.6vh;
+    margin-left: 75vw;
+    margin-top: -3vh;
 
 }
 p3{ display: flex;
     color:#02B6DE ;
-    margin-left: 79vw;
-    margin-top: -3.7vh;
+    margin-left: 85vw;
+    margin-top: -3vh;
 
 }
 p4{ display: flex;
     color:#02B6DE ;
-    margin-left: 88vw;
-    margin-top: -3.6vh;
+    margin-left: 95vw;
+    margin-top: -3vh;
 
 }
 .BlueB1{
     background-color:#02B6DE ;
     height: 5vh;
-    width: 25vw;
-    height: 15vh;
+    width:15vw;
     border-radius: 10px;
-    margin-left: 35vw;
+    margin-left: 30vw;
     margin-top: 10vh;
     color: #fff;
     text-align: center;
@@ -52,10 +51,10 @@ p4{ display: flex;
 }
 .BlueB2{
     background-color:#02B6DE ;
-    height: 15vh;
-    width:25vw;
+    height: 5vh;
+    width:15vw;
     border-radius: 10px;
-    margin-left: 35vw;
+    margin-left: 30vw;
     margin-top: 2vh;
     color: #fff;
     text-align: center;
@@ -65,10 +64,10 @@ p4{ display: flex;
 }
 .BlueB3{
     background-color:#02B6DE ;
-    height: 15vh;
-    width:25vw;
+    height: 5vh;
+    width:15vw;
     border-radius: 10px;
-    margin-left: 35vw;
+    margin-left: 30vw;
     margin-top: 2vh;
     color: #fff;
     text-align: center;

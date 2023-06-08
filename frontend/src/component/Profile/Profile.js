@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Profile.css";
+import { Link } from "react-router-dom";
 
 function Profile() {
   return (
@@ -10,10 +11,10 @@ function Profile() {
         <div class="p4">A Travel Guide</div>
     </div>
     <div class="p5">
-        <p>HOME</p>
-        <p>MY JOURNEY</p>
-        <p>WANT TO GO</p>
-        <p>LOGIN</p>
+    <p><Link to ="/home" className="li-1">HOME </Link></p>
+        <p><Link to ="/myjourney" className="li-1">MY JOURNEY</Link></p>
+        <p><Link to ="/myjourney" className="li-1">WANT TO GO</Link></p>
+        <p><Link to ="/profile" className="li-1">PROFILE</Link></p>
     </div>
 </div>
 <div class="p6"></div>

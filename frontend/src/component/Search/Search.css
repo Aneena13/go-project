@@ -87,11 +87,23 @@ overflow-y: auto;
 padding: 10px;
 }
 .t2{
-    width:100%;
+    width:83vw;
     min-height: 100px;
     text-align: center;
     background: #ffff;
     border-radius: 10px;
 
+
 }
+.pq{
+    margin-left: 15vw;
+    margin-top: 3vw;
+    color: #02B6DE;
+}
+.pq1{
+    margin-left: 12vw;
+    margin-top: 3vw;
+    color: #02B6DE;
+}
+
 
